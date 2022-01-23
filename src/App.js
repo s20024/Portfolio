@@ -175,7 +175,7 @@ const SwitchContent = (props) => {
     opacity = -(props.y - props.window_height * (props.data_num + 1)) / 100
   }
 
-  if (props.data_num === 0) {
+  if (props.data_num <= 0) {
     if (props.y <= 100) {
       opacity = 1
     }
