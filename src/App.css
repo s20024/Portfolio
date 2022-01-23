@@ -1,38 +1,495 @@
-.App {
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Body ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+body {
+  min-width: 300vw;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.blank_one {
+  flex: 1;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Body ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Container ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+.container {
+  position: fixed;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-flow: column;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Container ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#header {
+  flex: 1;
+  background-color: rgba(0, 0, 255, 0);
+  display: flex;
+}
+
+#title {
+  flex: 1;
+  background-color: rgba(0, 255, 255, 0);
+  color: #ffffff;
+  font-size: 42px;
+}
+
+#title_name {
+  background-color: rgba(0, 255, 255, 0);
+  margin: 40px 0px 0px 60px;
+}
+
+#title_portfolio {
+  background-color: rgba(0, 255, 255, 0);
+  margin: 0px 0px 0px 100px;
+}
+
+#title_blank {
+  flex: 2;
+}
+
+#menu {
+  flex: 1;
+  background-color: rgba(0, 255, 255, 0);
+  display: flex;
+}
+
+#menu_blank_first {
+  flex: 1;
+}
+
+#list_view {
+  flex: 2;
+  background-color: rgba(0, 255, 255, 0);
+  font-size: 20px;
+}
+
+#list_view li {
+  list-style: none;
+  margin: 0;
+}
+
+#list_view div {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#list_view div:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #fff;
+  transform: translate(-100%, 0);
+  transition: transform cubic-bezier(0.215, 0.61, 0.455, 1) 0.4s;
+  content: "";
+}
+
+#list_view div:hover:after {
+  transform: translate(0, 0);
+}
+
+#menu_blank_second {
+  flex: 1;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~ Content ~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#content {
+  flex: 4;
+  background-color: rgba(255, 0, 0, 0);
+  display: flex;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~ Hello ~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#content_hello {
+  flex: 1;
+  display: flex;
+  flex-flow: column;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#content_hello_content {
+  height: inherit;
+  flex: 1;
+  background-color: rgba(255, 0, 0, 0);
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+#content_hello_content_content {
+  flex: 2;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+#content_hello_welcome {
+  font-size: 104px;
+  margin: 0;
+}
+
+#content_hello_name {
+  font-size: 64px;
+  margin-bottom: 0;
+}
+
+#content_hello_portfolio {
+  font-size: 86px;
+  margin-top: 0;
+}
+
+#content_hello_please {
+  font-size: 86px;
+  margin-bottom: 0;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~ Hello ~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~ Contents ~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#content_contents {
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+
+#content_contents_content {
+  height: inherit;
+  flex: 1;
+  background-color: rgba(255, 0, 0, 0);
+  display: flex;
+}
+
+#content_contents_content_content {
+  flex: 4;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+#content_contents_title {
+  font-size: 50px;
+  margin: 0;
+}
+
+#content_contents_img {
+  max-width: 50vw;
+  max-height: 40vh;
+}
+
+#content_contents_sub_title {
+  margin: 0;
+}
+
+#content_contents_body_first {
+  background-color: rgba(0, 255, 255, 0);
+  display: flex;
+}
+
+#content_contents_body_second {
+  background-color: rgba(255, 0, 0, 0);
+  display: flex;
+}
+
+#content_contents_body_last {
+  background-color: rgba(0, 255, 0, 0);
+  display: flex;
+}
+
+#content_contents_body_first_contents {
+  background-color: rgba(0, 255, 255, 0);
+}
+
+#content_contents_body_second_contents {
+  background-color: rgba(255, 0, 0, 0);
+}
+
+#content_contents_body_last_contents {
+  width: 100%;
+  display: flex;
+  background-color: rgba(0, 255, 0, 0);
+}
+
+#site, #code, #left, #right {
+  display: flex;
+  flex: 1;
+}
+
+#content_contents a{
+  text-decoration: none;
+  color: black;
+}
+
+#content_contents p{
+  font-size: 20px;
+}
+
+#content_contents_body_second_blank_first {
+  display: flex;
+  flex-flow: column;
+}
+
+#content_contents_text_first {
+  background-color: rgba(255, 0, 0, 0);
+}
+
+#content_contents_body_second_blank_second {
+  display: flex;
+  flex-flow: column;
+}
+
+#content_contents_text_second {
+  background-color: rgba(255, 0, 0, 0);
+}
+
+#content_contents_body_first_blank_first {
+  display: flex;
+}
+
+#content_contents_body_first_blank_second {
+  display: flex;
+}
+
+#content_contents_language {
+  background-color: rgba(0, 255, 255, 0);
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+}
+
+#content_contents_development {
+  background-color: rgba(0, 255, 255, 0);
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+}
+
+#content h2 {
+  margin: 0;
+}
+
+#content li {
+  margin: 0;
+  list-style: none;
+}
+
+#content_contents_content_blank_first {
+  display: flex;
+}
+
+#content_handle_left {
+  background-color: rgba(255, 0, 0, 0);
+  display: flex;
+  flex-flow: column;
+}
+
+#content_handle_left_content {
+  background-color: rgba(255, 0, 0, 0);
+}
+
+#content_contents_content_blank_second {
+  display: flex;
+}
+
+#content_handle_right {
+  background-color: rgba(255, 0, 0, 0);
+  display: flex;
+  flex-flow: column;
+}
+
+#content_handle_right_content {
+  background-color: rgba(255, 0, 0, 0);
+}
+
+#left {
+  background-color: rgba(255, 0, 0, 0);
+  margin-left: 30px;
+}
+
+#right {
+  background-color: rgba(255, 0, 0, 0);
+  margin-right: 30px;
+}
+
+#left_content {
+  cursor: pointer;
+}
+
+#right_content {
+  cursor: pointer;
+}
+
+#left_content:hover {
+  opacity: 0.7;
+}
+
+#right_content:hover {
+  opacity: 0.7;
+}
+
+#left_content:active {
+  opacity: 0.4;
+}
+
+#right_content:active {
+  opacity: 0.4;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~ Contents ~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~ Thank ~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#content_thank {
+  flex: 1;
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+
+#content_thank_content {
+  height: inherit;
+  flex: 1;
+  background-color: rgba(255, 0, 0, 0);
+  display: flex;
+}
+
+#content_thank_content_content {
+  flex: 2;
+  background-color: rgba(255, 0, 0, 0);
+}
+
+#content_thank_title {
+  font-size: 104px;
+  margin: 0;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~ Thank ~~~~~~~~~~~~~~~~~~~~~~~ */
+
+/* ここはテストで書いてます。~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+.hide {
+  opacity: 0;
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -o-transition: opacity 1s linear;
+}
+.show {
+  opacity: 1;
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -o-transition: opacity 1s linear;
+}
+
+/* ここはテストで書いてます。~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~ Content ~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#footer {
+  flex: 1;
+  background-color: rgba(0, 255, 0, 0);
+  color: #ffffff;
+  display: flex;
+}
+
+#footer_blank_first {
+  flex: 1;
+}
+
+#footer_contents {
+  flex: 1;
+  display: flex;
+  background-color: rgba(0, 255, 0, 0);
+  flex-flow: column;
+}
+
+#footer_contents_blank_first {
+  flex: 1;
+}
+
+#footer_contents_blank_second {
+  flex: 1;
+}
+
+#footer_contents_item {
+  display: flex;
+  background-color: rgba(0, 255, 0, 0);
+}
+
+#footer_contents_item_blank_first {
+  flex: 5;
+}
+
+#footer_contents_item_blank_second {
+  flex: 5;
+}
+
+#footer_contents_item_blank_third {
+  flex: 5;
+}
+
+#footer a {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#github {
+  margin: 10px;
+  display: flex;
+  flex: 1;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#mail {
+  margin: 10px;
+  display: flex;
+  flex: 1;
 }
+
+
+
+
+
+
+.line {
+  z-index: -10;
+  position: absolute;
+  height: 50vh;
+  width: 300vw;
+}
+
+#lt_line {
+  margin-left: -150vw;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+#rt_line {
+  margin-left: -55vw;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#lu_line {
+  margin-left: -161vw;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+#ru_line {
+  margin-left: -55vw;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
