@@ -1,0 +1,119 @@
+[
+    {
+        "title": "pokemon",
+        "development": [
+            "react"
+        ],
+        "language": [
+            "html",
+            "css",
+            "javascript"
+        ],
+        "date": "2021-02",
+        "contents": [
+            {
+                "title": "pokemon",
+                "sub_title": "Create from React",
+                "text_first": "学校の課題で作成した。WebApplicationです。\nReactを使用して作成しました。\nHtmlのCanvasを使用したポケモンのシューティングゲームです。自分の好きなポケモンを使用することができます。\nまた、相手のポケモンも選ぶことができ、タイプ相性なども考慮しているので、少しは楽しめると思います。",
+                "text_second": "「a,w,d,s」で動くことができ「h」キーでたまが出せます。",
+                "img": "https://raw.githubusercontent.com/s20024/portfoliofile/main/images/pokemon/pokemon_battle.gif",
+                "site": "https://s20024.github.io/pokemon/",
+                "code": "https://github.com/s20024/pokemon/tree/gh-pages"
+            },
+            {
+                "title": "ページ全体",
+                "sub_title": "ページ全体の写真です。",
+                "text_first": "ページ全体の写真です。\nデザインができないなりにシンプルにまとめました。",
+                "text_second": "",
+                "img": "https://raw.githubusercontent.com/s20024/portfoliofile/main/images/pokemon/pokemon_all.png",
+                "site": "",
+                "code": ""
+            },
+            {
+                "title": "選択",
+                "sub_title": "",
+                "text_first": "タイプ、Id、名前からポケモンを選択することができます。",
+                "text_second": "",
+                "img": "https://raw.githubusercontent.com/s20024/portfoliofile/main/images/pokemon/pokemon_select.gif",
+                "site": "https://s20024.github.io/pokemon/",
+                "code": "https://github.com/s20024/pokemon/tree/gh-pages"
+            }
+        ]
+    },
+    {
+        "title": "minesweeper",
+        "development": [
+            "ubuntu",
+            "pygame"
+        ],
+        "language": [
+            "python3"
+        ],
+        "date": "2021-06",
+        "contents": [
+            {
+                "title": "minesweeper",
+                "sub_title": "Create from pygame",
+                "text_first": "PygameというpythonでGuiのアプリが作れるものを使用して、マインスイーパーを作ってみました。",
+                "text_second": "Ubuntu(20.04)以外での環境では動くかわかりません。",
+                "img": "https://raw.githubusercontent.com/s20024/portfoliofile/main/images/minesweeper/minesweeper_gui.gif",
+                "site": "",
+                "code": "https://github.com/s20024/minesweeper"
+            },
+            {
+                "title": "Cuiでの実装",
+                "sub_title": "コンソールで動作するアプリケーション",
+                "text_first": "ソースはそのまんまでCuiでのコンソールアプリケーションとしてのマインスイーパーも作成しました。",
+                "text_second": "",
+                "img": "https://raw.githubusercontent.com/s20024/portfoliofile/main/images/minesweeper/minesweeper_cui.gif",
+                "site": "",
+                "code": ""
+            }
+        ]
+    },
+    {
+        "title": "webextension",
+        "development": [
+            "web browser"
+        ],
+        "language": [
+            "html",
+            "css"
+        ],
+        "date": "2020-08",
+        "contents": [
+            {
+                "title": "WebExtension",
+                "sub_title": "Imitation my school's home page.",
+                "text_first": "課題で学校のホームページを真似たサイトを作成するという課題で作成したものです。",
+                "text_second": "デザインができない割に頑張りました。",
+                "img": "https://raw.githubusercontent.com/s20024/portfoliofile/main/images/webextension/webextension_all.png",
+                "site": "https://s20024.github.io/WebExtention/Task01/index.html",
+                "code": "https://github.com/s20024/WebExtention/tree/master/Task01"
+            }
+        ]
+    },
+    {
+      "title": "PiyoCS",
+      "development": [
+        "react"
+      ],
+      "language": [
+        "javascript",
+        "html",
+        "css"
+      ],
+      "date": "2022-1",
+      "contents": [
+        {
+          "title": "PiyoCS",
+          "sub_title": "製作中です。",
+          "text_first": "2年生の課題研究として、今グループで作成中です。\n現在製作中なのでサイトが開なかったらごめんなさい。",
+          "text_second": "初心者プログラマに向けてのアプリになります。\nいろいろな言語を一つのページで検索する事ができるサイトがあるといいなって事で作成しています。",
+          "img": "",
+          "site": "http://133.242.158.143:8000",
+          "code": ""
+        }
+      ]
+    }
+]
