@@ -36,7 +36,7 @@ class App extends React.Component{
   }
 
   async getData() {
-    const url = "https://raw.githubusercontent.com/s20024/portfoliofile/main/portfolio.json"
+    const url = "https://raw.githubusercontent.com/s20024/Portfolio/main/data/portfolio.json"
     return fetch(url)
       .then((res) => res.json())
       .then((res) => {
