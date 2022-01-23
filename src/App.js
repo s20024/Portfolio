@@ -5,6 +5,7 @@ import MailIcon from '@mui/icons-material/Mail'
 import ViewHello from './viewHello'
 import ViewThank from './viewThank'
 import ViewContents from './viewContents'
+import { Helmet } from 'react-helmet'
 
 class App extends React.Component{
   constructor(props) {
@@ -67,7 +68,13 @@ class App extends React.Component{
   }
 
   handleScroll() {
+    document.body.style.minHeight = `${(this.state.data_len) * 100}vh`
+    document.body.style.minWidth = `${(this.state.contents_len) * 100}vw`
     this.setState({
+          height: window.innerHeight * (this.state.data_len - 1),
+          width: window.innerWidth * (this.state.contents_len + 1),
+          window_height: window.innerHeight,
+          window_width: window.innerWidth,
       x: window.scrollX,
       y: window.scrollY,
       propotion: (window.scrollY / this.state.height * 100),
@@ -86,6 +93,11 @@ class App extends React.Component{
   render() {
     return (
       <div className="container">
+        <Helmet htmlAttributes={{ lang : "ja" }}>
+          <title>
+            s20024's Portfolio
+          </title>
+        </Helmet>
         <Line propotion={this.state.propotion} id={"lt_line"} num={25} first={-10} last={-32.0} />
         <Line propotion={this.state.propotion} id={"rt_line"} num={-30} first={-15} last={-30} />
         <Line propotion={this.state.propotion} id={"lu_line"} num={-70} first={77.5} last={85.5} />
