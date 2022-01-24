@@ -149,7 +149,7 @@
                 "sub_title": "先ほどのアプリのVersion2です。",
                 "text_first": "WebApiからのデータを取得して、そのデータで問題を表示するアプリケーションです。",
                 "text_second": "こちらのアプリでは、SQLiteのデータベースを使用しています。またバージョン管理等も実装して見ました。",
-                "img": "https://raw.githubusercontent.com/s20024/Portfolio/main/data/images/quiz/quiz_two.png",
+                "img": "https://raw.githubusercontent.com/s20024/Portfolio/main/data/images/quiz/quiz_two.gif",
                 "site": "",
                 "code": "https://github.com/s20024/Quiz2"
             }
