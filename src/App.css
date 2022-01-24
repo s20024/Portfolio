@@ -1,6 +1,7 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Body ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 body {
+  background-color: rgba(0, 0, 0, 0.1);
   min-width: 300vw;
   overflow-y: scroll;
   -ms-overflow-style: none;
