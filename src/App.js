@@ -12,15 +12,12 @@ class App extends React.Component{
 
     this.state = {
       height: 0,
-      width: 0,
       window_height: 0,
-      window_width: 0,
       data_len: 0,
       contents_len: 0,
       data_num: 0,
       old_data_num: 0,
       contents_num: 0,
-      x: 0,
       y: 0,
       propotion: 0,
       data: []
@@ -29,8 +26,6 @@ class App extends React.Component{
 
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll.bind(this), {passive: true})
-    // document.body.style.minHeight = `${(this.state.data_len + 1) * 100}vh`
-    // this.setState({height: window.innerHeight * this.state.data_len, window_height: window.innerHeight})
     this.getData()
   }
 
@@ -46,12 +41,9 @@ class App extends React.Component{
           }
         })
         document.body.style.minHeight = `${(res.length + 2) * 100}vh`
-        document.body.style.minWidth = `${(contents_len) * 100}vw`
         this.setState({
           height: window.innerHeight * (res.length + 1),
-          width: window.innerWidth * (contents_len + 1),
           window_height: window.innerHeight,
-          window_width: window.innerWidth,
           data: res,
           data_len: res.length + 2,
           contents_len: contents_len
@@ -62,19 +54,14 @@ class App extends React.Component{
   componentDidUpdate() {
     if(this.state.data_num !== this.state.old_data_num) {
       this.setState({old_data_num: this.state.data_num, contents_num: 0})
-      console.log("change")
     }
   }
 
   handleScroll() {
     document.body.style.minHeight = `${(this.state.data_len) * 100}vh`
-    document.body.style.minWidth = `${(this.state.contents_len) * 100}vw`
     this.setState({
-          height: window.innerHeight * (this.state.data_len - 1),
-          width: window.innerWidth * (this.state.contents_len + 1),
-          window_height: window.innerHeight,
-          window_width: window.innerWidth,
-      x: window.scrollX,
+      height: window.innerHeight * (this.state.data_len - 1),
+      window_height: window.innerHeight,
       y: window.scrollY,
       propotion: (window.scrollY / this.state.height * 100),
       data_num: Math.floor(window.scrollY / this.state.window_height),
@@ -115,11 +102,8 @@ class App extends React.Component{
         <div id="content">
           <SwitchContent
             y={this.state.y}
-            x={this.state.x}
             height={this.state.height}
-            width={this.state.width}
             window_height={this.state.window_height}
-            window_width={this.state.window_width}
             data_len={this.state.data_len}
             contents_len={this.state.contents_len}
             data_num={this.state.data_num}
