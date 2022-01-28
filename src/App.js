@@ -1,5 +1,6 @@
 import React from 'react'
-import "./App.css"
+// import "./App.css"
+import "./Parsent.css"
 import GitHubIcon from '@mui/icons-material/GitHub'
 import MailIcon from '@mui/icons-material/Mail'
 import ViewHello from './viewHello'
