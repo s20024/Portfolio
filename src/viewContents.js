@@ -42,7 +42,9 @@ function ViewContents(props){
               <div className="blank_one"></div>
             </div>
             <div id="content_contents_body_second_contents">
+              <div className="blank_one"></div>
               <img src={props.data.contents[props.num].img} id="content_contents_img" alt=""/>
+              <div className="blank_one"></div>
             </div>
             <div id="content_contents_body_second_blank_second" className="blank_one">
               <div className="blank_one"></div>
@@ -94,7 +96,7 @@ const ViewHandleLeft = (props) => {
               <div id="left_content" onClick={() => {
                 props.handleLeft()
              }} >
-                <ChevronLeftIcon id="left_icon" sx={{fontSize: 100, color: "black"}}/>
+                <ChevronLeftIcon id="left_icon" sx={{fontSize: "10vw", color: "black"}}/>
               </div>
             </div>
           </div>
@@ -121,7 +123,7 @@ const ViewHandleRight = (props) => {
               <div id="right_content" onClick={() => {
                 props.handleRight()
               }} >
-                <ChevronRightIcon id="right_icon" sx={{fontSize: 100, color: "black"}}/>
+                <ChevronRightIcon id="right_icon" sx={{fontSize: "10vw", color: "black"}}/>
               </div>
             </div>
           </div>

@@ -44,7 +44,7 @@ body::-webkit-scrollbar {
   /* font-size: 42px; */
 }
 
-@media screen and (max-width: 757px) {
+@media screen and (max-width: 960px) {
   #title {
     font-size:  4vw;
   }
@@ -61,7 +61,7 @@ body::-webkit-scrollbar {
   #list_view {
     flex: 2;
     background-color: rgba(0, 255, 255, 0);
-    font-size: 2vw;
+    font-size: 2.5vw;
   }
   #content_hello_welcome {
     font-size: 7vw;
@@ -88,6 +88,7 @@ body::-webkit-scrollbar {
   }
   
   #content_contents_img {
+    flex: 1;
     max-width: 45vw;
     max-height: 35vw;
   }
@@ -117,9 +118,8 @@ body::-webkit-scrollbar {
   }
 }
 
-@media screen and (min-width: 758px) {
+@media screen and (min-width: 961px) {
   #title{
-    color: black;
     font-size:  4vh;
   }
   #title_name {
@@ -162,6 +162,7 @@ body::-webkit-scrollbar {
   }
   
   #content_contents_img {
+    flex: 1;
     max-width: 50vw;
     max-height: 40vh;
   }
@@ -280,7 +281,7 @@ body::-webkit-scrollbar {
 }
 
 #content_contents_content_content {
-  flex: 4;
+  flex: 6;
   background-color: rgba(255, 0, 0, 0);
 }
 
@@ -305,6 +306,8 @@ body::-webkit-scrollbar {
 }
 
 #content_contents_body_second_contents {
+  display: flex;
+  flex-flow: column;
   background-color: rgba(255, 0, 0, 0);
 }
 
