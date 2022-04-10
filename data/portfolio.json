@@ -111,7 +111,7 @@
                 "text_first": "2年生の課題研究で作成中のサイトです。\n作成中のサイトなのでサイトが開いていなかったら申し訳ありません。",
                 "text_second": "学校での課題研究ということで、初心者プログラマや後輩に向けてのアプリになります。詳しくは「>」をクリック",
                 "img": "https://raw.githubusercontent.com/s20024/Portfolio/main/data/images/piyocs/piyocs.png",
-                "site": "http://133.242.158.143:8000",
+                "site": "https://s20016.github.io/PiyoCS/",
                 "code": ""
             },
             {
@@ -120,7 +120,7 @@
                 "text_first": "実際に使用している画像です。\n言語や使用したいものを選択することで、簡易的な使い方と使った実例、その結果が表示されます。",
                 "text_second": "これからBGM等も追加していきたいという流れです。",
                 "img": "https://raw.githubusercontent.com/s20024/Portfolio/main/data/images/piyocs/piyocs.gif",
-                "site": "http://133.242.158.143:8000",
+                "site": "https://s20016.github.io/PiyoCS/",
                 "code": ""
             }
         ]
