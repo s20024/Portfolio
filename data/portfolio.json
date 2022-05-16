@@ -207,5 +207,32 @@
                 "code": "https://github.com/s20024/Portfolio"
             }
         ]
+    },
+    {
+        "title": "Unko Channel",
+        "development": [
+            "Web Storm",
+            "MongoDB",
+            "Express",
+            "Ejs"
+        ],
+        "language": [
+            "html",
+            "css",
+            "javascript",
+            "ejs"
+        ],
+        "date": "2022-02",
+        "contents": [
+            {
+                "title": "Unko Channel",
+                "sub_title": "サイトのトップページです。",
+                "text_first": "JavaScriptのExpressを使用し、サーバーサイドのプログラムを書いてみました。\n掲示板サイトのような動きをします。",
+                "text_second": "ユーザー認証からデータベースの使用、Ejsの使用など、さまざまな技術を追加し、その勉強することができました。",
+                "img": "https://raw.githubusercontent.com/s20024/Portfolio/main/data/images/unkochannel/unkochannel.png",
+                "site": "",
+                "code": "https://github.com/s20024/UnkoChannel2"
+            }
+        ]
     }
 ]
