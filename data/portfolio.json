@@ -55,15 +55,15 @@
                 "title": "MineSweeper",
                 "sub_title": "Ubuntu上で動作するマインスイーパー",
                 "text_first": "Guiでのアプリケーションを作成してみたいという理由でPyGameを使用して、マインスイーパーを作成しました。",
-                "text_second": "Ubuntuでは実行できたのですが、Windowsでは動作しなかったです。\nまた、Cuiにも対応しています。詳しくは「>」へ。",
+                "text_second": "Ubuntuでは実行できたのですが、Windowsでは動作しなかったです。\nまた、CUIにも対応しています。詳しくは「>」へ。",
                 "img": "https://raw.githubusercontent.com/s20024/Portfolio/main/data/images/minesweeper/minesweeper_gui.gif",
                 "site": "",
                 "code": "https://github.com/s20024/minesweeper"
             },
             {
-                "title": "Cuiでのマインスイーパー",
+                "title": "CUIでのマインスイーパー",
                 "sub_title": "Ubuntuのコンソールで動作するアプリケーションです。",
-                "text_first": "Guiと中身は一緒で、Cuiのマインスイーパーも作成しました。",
+                "text_first": "Guiと中身は一緒で、CUIのマインスイーパーも作成しました。",
                 "text_second": "Guiとは違い、右クリックがないので、旗機能がありません。",
                 "img": "https://raw.githubusercontent.com/s20024/Portfolio/main/data/images/minesweeper/minesweeper_cui.gif",
                 "site": "",

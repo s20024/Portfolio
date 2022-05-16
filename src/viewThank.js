@@ -7,7 +7,7 @@ function ViewThank(props) {
       <div id="content_thank_content">
         <div id="content_thank_content_blank_first" className="blank_one"></div>
           <div id="content_thank_content_content">
-            <h1 id="content_thank_title">Thank you for watching!!</h1>
+            <h1 id="content_thank_title">Thank you for visiting!!</h1>
           </div>
         <div id="content_thank_content_blank_second" className="blank_one"></div>
       </div>
