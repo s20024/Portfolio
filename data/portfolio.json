@@ -191,7 +191,7 @@
             {
                 "title": "Portfolio",
                 "sub_title": "このサイトです。",
-                "text_first": "就職活動で使用するために作成しました。\n最近の自分のプログラムの基盤として、「データ量が増えても大丈夫なプログラム」という考えを取り入れています。",
+                "text_first": "最近の自分のプログラムの基盤として、「データ量が増えても大丈夫なプログラム」という考えを取り入れています。",
                 "text_second": "このPortfolioでもgithubからデータを取得し、データ量が変わっても\nプログラムを書き換えないで済むように設計しました。",
                 "img": "https://raw.githubusercontent.com/s20024/Portfolio/main/data/images/portfolio/portfolio.png",
                 "site": "",
