@@ -213,7 +213,7 @@
         "development": [
             "Web Storm",
             "MongoDB",
-            "Express",
+            "Express"
         ],
         "language": [
             "css",
