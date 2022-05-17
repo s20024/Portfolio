@@ -12,7 +12,7 @@
         "date": "2021-02",
         "contents": [
             {
-                "title": "Pokemon's Shooting",
+                "title": "PokeShoot",
                 "sub_title": "ポケモンのシューティングゲーム",
                 "text_first": "学校でのJavaScriptの授業の課題として作成しました。\nこの課題を通して、Reactの基本的な使い方や、WebApiのデータの取得の仕方などを学べました。",
                 "text_second": "このサイトでは、自分と相手のポケモンを選んでシューティングゲームができます。\n詳しくは右「>」をクリックしてください。",

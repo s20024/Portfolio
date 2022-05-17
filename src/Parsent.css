@@ -15,6 +15,9 @@ body::-webkit-scrollbar {
 .blank_one {
   flex: 1;
 }
+.blank_two {
+  flex: 2;
+}
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Body ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
@@ -33,35 +36,39 @@ body::-webkit-scrollbar {
 
 #header {
   flex: 1;
-  background-color: rgba(0, 0, 255, 0);
+  background-color: rgba(0, 0, 255, 0.3);
   display: flex;
 }
 
 #title {
   flex: 1;
-  background-color: rgba(0, 255, 255, 0);
+  background-color: rgba(0, 255, 255, 0.3);
   color: #ffffff;
   /* font-size: 42px; */
 }
 
 @media screen and (max-width: 960px) {
+  #content_contents_body_second {
+    flex-flow: column;
+  }
+
   #title {
     font-size:  4vw;
   }
   #title_name {
-    background-color: rgba(0, 255, 255, 0);
+    background-color: rgba(0, 255, 255, 0.3);
     /* margin: 40px 0px 0px 60px; */
     margin: 8vw 0 0 5vw;
   }
   #title_portfolio {
-    background-color: rgba(0, 255, 255, 0);
+    background-color: rgba(0, 255, 255, 0.3);
     /* margin: 0px 0px 0px 100px; */
     margin: 0 0 0 8vw;
   }
   #list_view {
     flex: 2;
-    background-color: rgba(0, 255, 255, 0);
-    font-size: 2.5vw;
+    background-color: rgba(0, 255, 255, 0.3);
+    font-size: 15px;
   }
   #content_hello_welcome {
     font-size: 7vw;
@@ -83,7 +90,7 @@ body::-webkit-scrollbar {
     margin-bottom: 0;
   }
   #content_contents_title {
-    font-size: 4vw;
+    font-size: 28px;
     margin: 0;
   }
   
@@ -95,20 +102,20 @@ body::-webkit-scrollbar {
   
   #content_contents_sub_title {
     margin: 0;
-    font-size: 3vw;
+    font-size: 15px;
   }
   #content_contents p{
-    font-size: 2vw;
+    font-size: 13px;
   }
   #content_thank_title {
     font-size: 8vw;
     margin: 0;
   }
   #content_contents_language h2 {
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
   #content_contents_development h2 {
-    font-size: 3vw;
+    font-size: 3.5vw;
   }
   #content_contents_language li {
     font-size: 2.5vw;
@@ -119,23 +126,27 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (min-width: 961px) {
+  #content_contents_body_second_contents {
+    flex-flow: column;
+  }
+
   #title{
     font-size:  4vh;
   }
   #title_name {
-    background-color: rgba(0, 255, 255, 0);
+    background-color: rgba(0, 255, 255, 0.3);
     /* margin: 40px 0px 0px 60px; */
     margin: 8vh 0 0 5vh;
   }
   #title_portfolio {
-    background-color: rgba(0, 255, 255, 0);
+    background-color: rgba(0, 255, 255, 0.3);
     /* margin: 0px 0px 0px 100px; */
     margin: 0 0 0 8vh;
   }
   #list_view {
     flex: 2;
-    background-color: rgba(0, 255, 255, 0);
-    font-size: 2vh;
+    background-color: rgba(0, 255, 255, 0.3);
+    font-size: 15px;
   }
   #content_hello_welcome {
     font-size: 7vh;
@@ -189,7 +200,7 @@ body::-webkit-scrollbar {
 
 #menu {
   flex: 1;
-  background-color: rgba(0, 255, 255, 0);
+  background-color: rgba(0, 255, 255, 0.3);
   display: flex;
 }
 
@@ -236,7 +247,7 @@ body::-webkit-scrollbar {
 
 #content {
   flex: 4;
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgba(255, 0, 0, 0.3);
   display: flex;
 }
 
@@ -252,13 +263,13 @@ body::-webkit-scrollbar {
 #content_hello_content {
   height: inherit;
   flex: 1;
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgba(255, 0, 0, 0.3);
   display: flex;
 }
 
 #content_hello_content_content {
   flex: 2;
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgba(255, 0, 0, 0.3);
 }
 
 
@@ -276,45 +287,44 @@ body::-webkit-scrollbar {
 #content_contents_content {
   height: inherit;
   flex: 1;
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgba(255, 0, 0, 0.3);
   display: flex;
 }
 
 #content_contents_content_content {
   flex: 6;
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgba(255, 0, 0, 0.3);
 }
 
 
 #content_contents_body_first {
-  background-color: rgba(0, 255, 255, 0);
+  background-color: rgba(0, 255, 255, 0.3);
   display: flex;
 }
 
 #content_contents_body_second {
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgba(255, 0, 0, 0.3);
   display: flex;
 }
 
 #content_contents_body_last {
-  background-color: rgba(0, 255, 0, 0);
+  background-color: rgba(0, 255, 0, 0.3);
   display: flex;
 }
 
 #content_contents_body_first_contents {
-  background-color: rgba(0, 255, 255, 0);
+  background-color: rgba(0, 255, 255, 0.3);
 }
 
 #content_contents_body_second_contents {
   display: flex;
-  flex-flow: column;
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgba(255, 0, 0, 0.3);
 }
 
 #content_contents_body_last_contents {
   width: 100%;
   display: flex;
-  background-color: rgba(0, 255, 0, 0);
+  background-color: rgba(0, 255, 0, 0.3);
 }
 
 #site, #code, #left, #right {
@@ -334,7 +344,7 @@ body::-webkit-scrollbar {
 }
 
 #content_contents_text_first {
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgba(255, 0, 0, 0.3);
 }
 
 #content_contents_body_second_blank_second {
@@ -343,7 +353,7 @@ body::-webkit-scrollbar {
 }
 
 #content_contents_text_second {
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgba(255, 0, 0, 0.3);
 }
 
 #content_contents_body_first_blank_first {
@@ -355,14 +365,14 @@ body::-webkit-scrollbar {
 }
 
 #content_contents_language {
-  background-color: rgba(0, 255, 255, 0);
+  background-color: rgba(0, 255, 255, 0.3);
   flex: 1;
   display: flex;
   flex-flow: column;
 }
 
 #content_contents_development {
-  background-color: rgba(0, 255, 255, 0);
+  background-color: rgba(0, 255, 255, 0.3);
   flex: 1;
   display: flex;
   flex-flow: column;
@@ -382,13 +392,13 @@ body::-webkit-scrollbar {
 }
 
 #content_handle_left {
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgba(255, 0, 0, 0.3);
   display: flex;
   flex-flow: column;
 }
 
 #content_handle_left_content {
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgba(255, 0, 0, 0.3);
 }
 
 #content_contents_content_blank_second {
@@ -396,22 +406,22 @@ body::-webkit-scrollbar {
 }
 
 #content_handle_right {
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgba(255, 0, 0, 0.3);
   display: flex;
   flex-flow: column;
 }
 
 #content_handle_right_content {
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgba(255, 0, 0, 0.3);
 }
 
 #left {
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgba(255, 0, 0, 0.3);
   margin-left: 1vw;
 }
 
 #right {
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgba(255, 0, 0, 0.3);
   margin-right: 1vw;
 }
 
@@ -454,13 +464,13 @@ body::-webkit-scrollbar {
 #content_thank_content {
   height: inherit;
   flex: 1;
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgba(255, 0, 0, 0.3);
   display: flex;
 }
 
 #content_thank_content_content {
   flex: 2;
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgba(255, 0, 0, 0.3);
 }
 
 
@@ -490,7 +500,7 @@ body::-webkit-scrollbar {
 
 #footer {
   flex: 1;
-  background-color: rgba(0, 255, 0, 0);
+  background-color: rgba(0, 255, 0, 0.3);
   color: #ffffff;
   display: flex;
 }
@@ -502,7 +512,7 @@ body::-webkit-scrollbar {
 #footer_contents {
   flex: 1;
   display: flex;
-  background-color: rgba(0, 255, 0, 0);
+  background-color: rgba(0, 255, 0, 0.3);
   flex-flow: column;
 }
 
@@ -516,7 +526,7 @@ body::-webkit-scrollbar {
 
 #footer_contents_item {
   display: flex;
-  background-color: rgba(0, 255, 0, 0);
+  background-color: rgba(0, 255, 0, 0.3);
 }
 
 #footer_contents_item_blank_first {

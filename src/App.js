@@ -28,6 +28,9 @@ class App extends React.Component{
   componentDidMount() {
     window.addEventListener('scroll', this.handleScroll.bind(this), {passive: true})
     this.getData()
+    this.setState({
+      window_height: window.innerHeight,
+    })
   }
 
   async getData() {
@@ -44,7 +47,6 @@ class App extends React.Component{
         document.body.style.minHeight = `${(res.length + 2) * 100}vh`
         this.setState({
           height: window.innerHeight * (res.length + 1),
-          window_height: window.innerHeight,
           data: res,
           data_len: res.length + 2,
           contents_len: contents_len
@@ -62,7 +64,6 @@ class App extends React.Component{
     document.body.style.minHeight = `${(this.state.data_len) * 100}vh`
     this.setState({
       height: window.innerHeight * (this.state.data_len - 1),
-      window_height: window.innerHeight,
       y: window.scrollY,
       propotion: (window.scrollY / this.state.height * 100),
       data_num: Math.floor(window.scrollY / this.state.window_height),
