@@ -226,7 +226,7 @@
         "contents": [
             {
                 "title": "Unko Channel",
-                "sub_title": "チャンネルの名前が思いつかず、こんな名前にしてしまいました。💧",
+                "sub_title": "チャンネルの名前が思いつきませんでした。",
                 "text_first": "JavaScriptのExpressを使用し、サーバーサイドのプログラムを書いてみました。\n掲示板サイトのような動きをします。",
                 "text_second": "ユーザー認証からデータベースの使用、Ejsの使用など、さまざまな技術を追加し、その勉強することができました。",
                 "img": "https://raw.githubusercontent.com/s20024/Portfolio/main/data/images/unkochannel/unkochannel.png",
