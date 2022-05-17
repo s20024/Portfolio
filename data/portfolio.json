@@ -214,10 +214,8 @@
             "Web Storm",
             "MongoDB",
             "Express",
-            "Ejs"
         ],
         "language": [
-            "html",
             "css",
             "javascript",
             "ejs"
