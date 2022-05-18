@@ -94,9 +94,11 @@ class App extends React.Component{
           <div id="title_blank"></div>
           <div id="menu">
             <div id="menu_blank_first"></div>
-            <ul id="list_view">
-              <ListView data={this.state.data} window_height={this.state.window_height}/>
-            </ul>
+            <div id="menu_contents">
+              <ul id="list_view">
+                <ListView data={this.state.data} window_height={this.state.window_height}/>
+              </ul>
+            </div>
             <div id="menu_blank_second"></div>
           </div>
         </div>
@@ -178,7 +180,7 @@ const ListView = (props) => {
   return props.data.map((content, i) => {
     return (
       <li>
-        <div onClick={() => {
+        <div className="blank_one test" onClick={() => {
           window.scrollTo({top: props.window_height * (i + 1) + 200, left: 0, behavior: 'smooth'})
         }}>
           {content.title}

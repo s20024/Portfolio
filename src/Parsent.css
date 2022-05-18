@@ -15,6 +15,12 @@ body::-webkit-scrollbar {
 .blank_one {
   flex: 1;
 }
+
+.test{
+  background-color: rgba(100, 100, 100);
+  flex-basis:50%;
+}
+
 .blank_two {
   flex: 2;
 }
@@ -48,6 +54,20 @@ body::-webkit-scrollbar {
 }
 
 @media screen and (max-width: 960px) {
+  #menu_contents {
+    flex: 9;
+  }
+  #menu {
+    flex: 7;
+    background-color: rgba(0, 255, 255, 0.3);
+  }
+  #list_view li {
+    list-style: none;
+    margin-right: 15px;
+    margin-left: 15px;
+    float: left;
+  }
+
   #content_contents_body_second {
     flex-flow: column;
   }
@@ -129,6 +149,10 @@ body::-webkit-scrollbar {
   #content_contents_body_second_contents {
     flex-flow: column;
   }
+#menu {
+  flex: 1;
+  background-color: rgba(0, 255, 255, 0.3);
+}
 
   #title{
     font-size:  4vh;
@@ -197,21 +221,19 @@ body::-webkit-scrollbar {
 #title_blank {
   flex: 2;
 }
-
-#menu {
-  flex: 1;
-  background-color: rgba(0, 255, 255, 0.3);
-  display: flex;
-}
-
 #menu_blank_first {
   flex: 1;
+  display: flex;
+  flex-flow:row wrap; 
+}
+
+#menu_contents {
+  flex: 9;
 }
 
 
 #list_view li {
   list-style: none;
-  margin: 0;
 }
 
 #list_view div {
