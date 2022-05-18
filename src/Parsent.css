@@ -17,7 +17,6 @@ body::-webkit-scrollbar {
 }
 
 .test{
-  background-color: rgba(100, 100, 100);
   flex-basis:50%;
 }
 
@@ -42,13 +41,13 @@ body::-webkit-scrollbar {
 
 #header {
   flex: 1;
-  background-color: rgba(0, 0, 255, 0.3);
+  background-color: rgba(0, 0, 255, 0);
   display: flex;
 }
 
 #title {
   flex: 1;
-  background-color: rgba(0, 255, 255, 0.3);
+  background-color: rgba(0, 255, 255, 0);
   color: #ffffff;
   /* font-size: 42px; */
 }
@@ -59,7 +58,7 @@ body::-webkit-scrollbar {
   }
   #menu {
     flex: 7;
-    background-color: rgba(0, 255, 255, 0.3);
+    background-color: rgba(0, 255, 255, 0);
   }
   #list_view li {
     list-style: none;
@@ -76,18 +75,18 @@ body::-webkit-scrollbar {
     font-size:  4vw;
   }
   #title_name {
-    background-color: rgba(0, 255, 255, 0.3);
+    background-color: rgba(0, 255, 255, 0);
     /* margin: 40px 0px 0px 60px; */
     margin: 8vw 0 0 5vw;
   }
   #title_portfolio {
-    background-color: rgba(0, 255, 255, 0.3);
+    background-color: rgba(0, 255, 255, 0);
     /* margin: 0px 0px 0px 100px; */
     margin: 0 0 0 8vw;
   }
   #list_view {
     flex: 2;
-    background-color: rgba(0, 255, 255, 0.3);
+    background-color: rgba(0, 255, 255, 0);
     font-size: 15px;
   }
   #content_hello_welcome {
@@ -151,25 +150,25 @@ body::-webkit-scrollbar {
   }
 #menu {
   flex: 1;
-  background-color: rgba(0, 255, 255, 0.3);
+  background-color: rgba(0, 255, 255, 0);
 }
 
   #title{
     font-size:  4vh;
   }
   #title_name {
-    background-color: rgba(0, 255, 255, 0.3);
+    background-color: rgba(0, 255, 255, 0);
     /* margin: 40px 0px 0px 60px; */
     margin: 8vh 0 0 5vh;
   }
   #title_portfolio {
-    background-color: rgba(0, 255, 255, 0.3);
+    background-color: rgba(0, 255, 255, 0);
     /* margin: 0px 0px 0px 100px; */
     margin: 0 0 0 8vh;
   }
   #list_view {
     flex: 2;
-    background-color: rgba(0, 255, 255, 0.3);
+    background-color: rgba(0, 255, 255, 0);
     font-size: 15px;
   }
   #content_hello_welcome {
@@ -269,7 +268,7 @@ body::-webkit-scrollbar {
 
 #content {
   flex: 4;
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(255, 0, 0, 0);
   display: flex;
 }
 
@@ -285,13 +284,13 @@ body::-webkit-scrollbar {
 #content_hello_content {
   height: inherit;
   flex: 1;
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(255, 0, 0, 0);
   display: flex;
 }
 
 #content_hello_content_content {
   flex: 2;
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(255, 0, 0, 0);
 }
 
 
@@ -309,44 +308,44 @@ body::-webkit-scrollbar {
 #content_contents_content {
   height: inherit;
   flex: 1;
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(255, 0, 0, 0);
   display: flex;
 }
 
 #content_contents_content_content {
   flex: 6;
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(255, 0, 0, 0);
 }
 
 
 #content_contents_body_first {
-  background-color: rgba(0, 255, 255, 0.3);
+  background-color: rgba(0, 255, 255, 0);
   display: flex;
 }
 
 #content_contents_body_second {
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(255, 0, 0, 0);
   display: flex;
 }
 
 #content_contents_body_last {
-  background-color: rgba(0, 255, 0, 0.3);
+  background-color: rgba(0, 255, 0, 0);
   display: flex;
 }
 
 #content_contents_body_first_contents {
-  background-color: rgba(0, 255, 255, 0.3);
+  background-color: rgba(0, 255, 255, 0);
 }
 
 #content_contents_body_second_contents {
   display: flex;
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(255, 0, 0, 0);
 }
 
 #content_contents_body_last_contents {
   width: 100%;
   display: flex;
-  background-color: rgba(0, 255, 0, 0.3);
+  background-color: rgba(0, 255, 0, 0);
 }
 
 #site, #code, #left, #right {
@@ -366,7 +365,7 @@ body::-webkit-scrollbar {
 }
 
 #content_contents_text_first {
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(255, 0, 0, 0);
 }
 
 #content_contents_body_second_blank_second {
@@ -375,7 +374,7 @@ body::-webkit-scrollbar {
 }
 
 #content_contents_text_second {
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(255, 0, 0, 0);
 }
 
 #content_contents_body_first_blank_first {
@@ -387,14 +386,14 @@ body::-webkit-scrollbar {
 }
 
 #content_contents_language {
-  background-color: rgba(0, 255, 255, 0.3);
+  background-color: rgba(0, 255, 255, 0);
   flex: 1;
   display: flex;
   flex-flow: column;
 }
 
 #content_contents_development {
-  background-color: rgba(0, 255, 255, 0.3);
+  background-color: rgba(0, 255, 255, 0);
   flex: 1;
   display: flex;
   flex-flow: column;
@@ -414,13 +413,13 @@ body::-webkit-scrollbar {
 }
 
 #content_handle_left {
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(255, 0, 0, 0);
   display: flex;
   flex-flow: column;
 }
 
 #content_handle_left_content {
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(255, 0, 0, 0);
 }
 
 #content_contents_content_blank_second {
@@ -428,22 +427,22 @@ body::-webkit-scrollbar {
 }
 
 #content_handle_right {
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(255, 0, 0, 0);
   display: flex;
   flex-flow: column;
 }
 
 #content_handle_right_content {
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(255, 0, 0, 0);
 }
 
 #left {
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(255, 0, 0, 0);
   margin-left: 1vw;
 }
 
 #right {
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(255, 0, 0, 0);
   margin-right: 1vw;
 }
 
@@ -486,13 +485,13 @@ body::-webkit-scrollbar {
 #content_thank_content {
   height: inherit;
   flex: 1;
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(255, 0, 0, 0);
   display: flex;
 }
 
 #content_thank_content_content {
   flex: 2;
-  background-color: rgba(255, 0, 0, 0.3);
+  background-color: rgba(255, 0, 0, 0);
 }
 
 
@@ -522,7 +521,7 @@ body::-webkit-scrollbar {
 
 #footer {
   flex: 1;
-  background-color: rgba(0, 255, 0, 0.3);
+  background-color: rgba(0, 255, 0, 0);
   color: #ffffff;
   display: flex;
 }
@@ -534,7 +533,7 @@ body::-webkit-scrollbar {
 #footer_contents {
   flex: 1;
   display: flex;
-  background-color: rgba(0, 255, 0, 0.3);
+  background-color: rgba(0, 255, 0, 0);
   flex-flow: column;
 }
 
@@ -548,7 +547,7 @@ body::-webkit-scrollbar {
 
 #footer_contents_item {
   display: flex;
-  background-color: rgba(0, 255, 0, 0.3);
+  background-color: rgba(0, 255, 0, 0);
 }
 
 #footer_contents_item_blank_first {
